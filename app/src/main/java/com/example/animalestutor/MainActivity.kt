@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             currentLanguage = if (currentLanguage == Language.ES) Language.EN else Language.ES
             adapter.currentLanguage = currentLanguage
             adapter.notifyDataSetChanged()
-            btnToggle.text = if (currentLanguage == Language.ES) "Cambiar a Inglés" else "Cambiar a Español"
+            btnToggle.text = if (currentLanguage == Language.ES) "Cambiar a Ingles" else "Cambiar a Espanol"
         }
     }
 
@@ -64,8 +64,8 @@ class MainActivity : AppCompatActivity() {
             Animal("Caballo", "Horse", R.drawable.animal_caballo, R.raw.audio_horse_en, R.raw.audio_caballo_es),
             Animal("Oveja", "Sheep", R.drawable.animal_oveja, R.raw.audio_sheep_en, R.raw.audio_oveja_es),
             Animal("Cerdo", "Pig", R.drawable.animal_cerdo, R.raw.audio_pig_en, R.raw.audio_cerdo_es),
-            Animal("Pájaro", "Bird", R.drawable.animal_pajaro, R.raw.audio_bird_en, R.raw.audio_pajaro_es),
-            Animal("León", "Lion", R.drawable.animal_leon, R.raw.audio_lion_en, R.raw.audio_leon_es),
+            Animal("Pajaro", "Bird", R.drawable.animal_pajaro, R.raw.audio_bird_en, R.raw.audio_pajaro_es),
+            Animal("Leon", "Lion", R.drawable.animal_leon, R.raw.audio_lion_en, R.raw.audio_leon_es),
             Animal("Elefante", "Elephant", R.drawable.animal_elefante, R.raw.audio_elephant_en, R.raw.audio_elefante_es),
             Animal("Mono", "Monkey", R.drawable.animal_mono, R.raw.audio_monkey_en, R.raw.audio_mono_es),
             Animal("Zorro", "Fox", R.drawable.animal_zorro, R.raw.audio_fox_en, R.raw.audio_zorro_es),

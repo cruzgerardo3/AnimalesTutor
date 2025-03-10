@@ -29,7 +29,7 @@ class AnimalAdapter(
         holder.imgAnimal.setImageResource(animal.imagenResId)
         holder.txtAnimalName.text = if (currentLanguage == MainActivity.Language.ES) animal.nombreEs else animal.nombreEn
 
-        // Cargar y aplicar animación al item
+
         val animation = AnimationUtils.loadAnimation(holder.itemView.context, R.anim.scale_anim)
         holder.itemView.startAnimation(animation)
 
