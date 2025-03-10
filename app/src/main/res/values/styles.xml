@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema base de la aplicación -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Color de fondo de la aplicación -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <!-- Color de texto predeterminado -->
+        <item name="android:textColor">@color/textColor</item>
+        <!-- Fuente por defecto (asegúrate de tener bubblegum.ttf en res/font) -->
+        <item name="android:fontFamily">@font/bubblegum</item>
+    </style>
+
+</resources>
